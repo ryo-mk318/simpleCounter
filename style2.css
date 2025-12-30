@@ -1,0 +1,39 @@
+.counter{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.counter-number{
+  font-size: 50px;
+   margin-bottom: 10px;
+}
+
+
+.btn{
+    font-size: 16px;
+    padding: 10px 20px;
+    border:1px solid #000;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.btn-minus{
+    background-color: #00c3ff;
+}
+
+.btn-plus{
+    background-color: #ff3c00;
+}
+
+.btn-reset{
+    background-color: #00ff80;
+}
+
+.button:hover{
+    opacity: 0.8;
+    transition: opacity .25s;
+}
